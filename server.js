@@ -70,7 +70,7 @@ const option = {
 const swaggerDocs = swaggerJSDoc(option)
 app.use('/api-docs', swaggerUI.serve, swaggerUI.setup(swaggerDocs))
 
-
+console.log("Hello world")
 
 //Call server
 app.listen(PORT, console.log(`Server Running on port ${PORT}`))
